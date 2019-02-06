@@ -15,24 +15,61 @@ h1 {
     margin: 0 0 0 0.5em;
 }
 
+.cats_names {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#name_one{
+    flex-grow: 1;
+    text-align: center;
+}
+
+#name_two{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.counter{
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#counter-clicks_kitty {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#second_counter-clicks_missy {
+    flex-grow: 1;
+    text-align: center;
+}
+
 .cat-image-placeholder {
     display: flex;
     justify-content: center;
 
 }
+
 .cat-image{
+    height: 50%;
+    width: 50%;
+}
+
+.second_cat-image{
     height: 50%;
     width: 50%;
 }
  .cat-image:hover{
      cursor: grab;
  }
-
-#counter-clicks {
-    display:flex;
-    justify-content: center;
-}
-.counter {
-    padding-top: 10px;
-    padding-bottom: 10px;
+ .second_cat-image:hover{
+    cursor: grab;
 }
